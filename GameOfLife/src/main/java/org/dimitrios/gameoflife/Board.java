@@ -20,13 +20,18 @@ public class Board{
     private final int boardSize; //storlek
     private final byte [] printedBoard;
     
+    /**
+     *Constructor
+     * @param width
+     * @param height
+     */
     public Board(int width, int height){
         this.width = width;
         this.height = height;
         boardSize = width*height;
         printedBoard = new byte [boardSize];
     }
-    
+    //Getters n Setters
     public void setPos(int x, int y, byte val) {
         printedBoard[y * width + x] = val;
     }

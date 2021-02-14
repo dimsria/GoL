@@ -57,7 +57,7 @@ public class Game {
       
     }
     
-    System.arraycopy(next, 0, board.getPrintedBoard(), 0, board.getBoardSize());
+    System.arraycopy(next, 0, board.getPrintedBoard(), 0, board.getBoardSize());//Print the byte
     //System.out.println(Arrays.toString(next));
     for (int i =0; i<board.getWidth(); i++){
         for (int j = 0; j < board.getHeight(); j++){

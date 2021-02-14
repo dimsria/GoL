@@ -32,7 +32,7 @@ public class Play {
        int t = in.nextInt();
         for (int i = 1; i< t; i++){
             try{
-            Thread.sleep(1000);
+            Thread.sleep(1000); //motsvarar 1 sekund
             //g.randomBirth();
             g.iterate();
             }
